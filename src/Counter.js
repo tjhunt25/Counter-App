@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import {ThemeContext } from './App'
+
+
 export default class Counter extends Component {
   constructor(props){
     super(props)
@@ -27,4 +29,5 @@ export default class Counter extends Component {
       return {count: prevState.count + amount}
     })
   }
+
 }
